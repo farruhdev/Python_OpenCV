@@ -32,7 +32,7 @@ def cartoonize_image(img, ds_factor=4, sketch_mode=False):
 
 
 # 이미지 파일을 읽어옵니다.
-img = cv2.imread("C:/Users/lenovo/Desktop/111.jpg")
+img = cv2.imread("C:/rasim1.jpg")
 
 # 만화 스타일로 변환합니다.
 img_cartoon = cartoonize_image(img, ds_factor=4, sketch_mode=False)
