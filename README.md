@@ -21,8 +21,5 @@
 # 만화 스타일로 변환합니다.
 
 # 결과 이미지를 출력합니다.
-cv2.imshow('Cartoonized Image', img_cartoon)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
 ![rasim1](https://github.com/farruhdev/Python_OpenCV/assets/115518263/8f4f0138-e92d-4db9-8add-ad87fbb87486)
 ![Cartoonized](https://github.com/farruhdev/Python_OpenCV/assets/115518263/72bd3cfe-e6bb-45cd-8c6c-703305f5c161)
