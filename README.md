@@ -1,18 +1,5 @@
 # Cartoon
 
-## Installation
-
-### Application tested on:
-
-- python 3.7
-- tensorflow 2.1.0 
-- tf_slim 1.1.0
-- ffmpeg 3.4.8
-- Cuda version 10.1
-- OS: Linux (Ubuntu 18.04)
-
-
-
     # 이미지를 축소합니다.
     
     # 그레이 스케일 이미지를 얻습니다.
@@ -37,3 +24,5 @@
 cv2.imshow('Cartoonized Image', img_cartoon)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+![rasim1](https://github.com/farruhdev/Python_OpenCV/assets/115518263/8f4f0138-e92d-4db9-8add-ad87fbb87486)
+![Cartoonized](https://github.com/farruhdev/Python_OpenCV/assets/115518263/72bd3cfe-e6bb-45cd-8c6c-703305f5c161)
