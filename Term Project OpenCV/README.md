@@ -1,6 +1,4 @@
-# 색상 인식 및 객체 검출
+# Project name 색상 인식 및 객체 검출
 
-
-An application to detect shapes using OpenCV 
-How to detect shapes of objects by finding their contours. Contours are basically outline that bound the shape or 
-form of an object. So we will be detecting multiple shapes and how many corners points each shape has along with its area .
+# Project 소개 
+이 프로젝트는 OpenCv를 사용하여 비디오에서 특정 색상을 인식하고 해당 색상의 객체를 검출하는 기능을 구현하는 것입니다
