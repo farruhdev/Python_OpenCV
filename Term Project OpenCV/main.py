@@ -16,23 +16,23 @@ while True:
 
      # define range of red color in HSV
      lower_red = np.array([0, 50, 50])
-      upper_red = np.array([10, 250, 250])
+      upper_red = np.array([10, 255, 255])
 
      # define range of green color in HSV
-      lower_green = np.array([40, 25, 55])
+      lower_green = np.array([40, 20, 50])
       upper_green = np.array([90, 255, 255])
 
       # define range of blue color in HSV
-      lower_blue = np.array([100, 55, 55])
-      upper_blue = np.array([130, 250, 255]) 
+      lower_blue = np.array([100, 50, 50])
+      upper_blue = np.array([130, 255, 255]) 
       
      # define range of yellow color in HSV
       lower_yellow = np.array([20, 100, 100])
-      upper_yellow = np.array([30, 250, 250])
+      upper_yellow = np.array([30, 255, 255])
 
      # define range of orange color in HSV
-     lower_orange = np.array([11, 50, 50])
-     upper_orange = np.array([25, 250, 250]
+     lower_orange = np.array([10, 100, 20])
+     upper_orange = np.array([25, 255, 255]
      
      
       mask_red = cv2.inRange(hsv, lower_red, upper_red)
