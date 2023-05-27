@@ -3,6 +3,9 @@
 ## Project 소개 
 This project implements a feature using OpenCV to recognize a specific color in a video and detect objects of that color. The given code detects red, green, blue, and yellow orange objects in the given video, draws rectangles around those objects, and displays the color names.
 
+# Python Libraries Used:
+### NumPy OpenCV-Python 
+
 ## The main phases of the project are
 1 Video file loading: Open and read the video file from the given path
 
@@ -24,6 +27,8 @@ This project implements a feature using OpenCV to recognize a specific color in 
 
   By running this project, you can observe the real-time detection of red, green, blue,  orange, and yellow objects in videos. This can be applied to various applications. For example, it can recognize signal colors in traffic lights or perform color-based object tracking.
 
+## Recoource
+https://www.geeksforgeeks.org/
 
 
 
