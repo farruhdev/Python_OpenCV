@@ -46,5 +46,48 @@ while True:
      contours_blue, _ = cv2.findContours(mask_blue, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
      contours_yellow, _ = cv2.findContours(mask_yellow, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
      contours_orange, _ = cv2.findContours(mask_orange, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+     
+      for cnt in contours_red:
+        contour_area = cv2.contourArea(cnt)
+        if contour_area > 1000:
+               x, y, w, h = cv2.boundingRect(cnt)
+            cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), 2)
+            cv2.putText(img, 'Red', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
+            
+        for cnt in contours_green:
+        contour_area = cv2.contourArea(cnt)
+        if contour_area > 1000:    
+              x, y, w, h = cv2.boundingRect(cnt)
+            cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
+            cv2.putText(img, 'Green', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
+            
+            
+             for cnt in contours_blue:
+        contour_area = cv2.contourArea(cnt)
+        if contour_area > 1000:
+            x, y, w, h = cv2.boundingRect(cnt)
+            cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
+            cv2.putText(img, 'Blue', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
+            
+            
+          for cnt in contours_yellow:
+        contour_area = cv2.contourArea(cnt)
+        if contour_area > 1000:
+            x, y, w, h = cv2.boundingRect(cnt)
+            cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 255), 2)
+            cv2.putText(img, 'Yellow', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 255), 2)   
+            
+            for cnt in contours_orange:
+        contour_area = cv2.contourArea(cnt)
+        if contour_area > 1000:
+            x, y, w, h = cv2.boundingRect(cnt)
+            cv2.rectangle(img, (x, y), (x + w, y + h), (0, 165, 255), 2)
+            cv2.putText(img, 'Orange', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 165, 255), 2) 
+            
+            cv2.imshow('Color Recognition Output', img)
+     
+    # Close video window by pressing 'x'
+    if cv2.waitKey(1) & 0xFF == ord('x'):
+        break
    
             
