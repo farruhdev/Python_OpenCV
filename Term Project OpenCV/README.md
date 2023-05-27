@@ -27,6 +27,17 @@ This project implements a feature using OpenCV to recognize a specific color in 
 
 
 
+# Orginal video
+https://github.com/farruhdev/Python_OpenCV/assets/115518263/45571c38-66a4-43ff-9c79-ceb52ae4714a
+
+
+#Result Video
+
+https://github.com/farruhdev/Python_OpenCV/assets/115518263/0ad43bf6-465d-4bb0-843c-334178b904f2
+
+
+
+
 
 
 
